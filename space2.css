@@ -1,53 +1,103 @@
 		body {
 			background-image: url(bg.png);
 			font-family: Tahoma;
+			margin-left: 185px;
+
 		}
 		
 		#frame {
 			background-color: rgba(255,200,200,0.3);
-			flex-direction: row;
+			width: 1000px;
+			padding: 10px;
+
 
 		}
 		
 		header nav ul {
 			list-style-type: none;
 			background-color: rgba(255,255,200,0.3);
+			padding-left: 4px;
 
 			
 		}
 		
 		#content {
+			display: flex;
+			flex-direction: row;
+
 
 		}
 		
 		nav li {
+			display: inline-block;
+			padding: 1px;
+
+
+
 			
 		}
 		
 		nav li a {
+			text-decoration: none;
+			color: black;
+			font-weight: bold;
+			padding: 6px;
+			line-height: 40px;
+			width: 80%;
+			margin-top: 0px;
+
+
 		}
 		
 		main{
 			border: 1px black solid;
 			background-color: rgba(200,200,255,0.3);
+			width: 640px;
+			height: 409px;
+			padding: 8px;
+			flex: 5;
+
 		}
 		
 		aside{
 			border: 1px black solid;
 			background-color: rgba(200,255,200,0.3);
+			flex: 2;
+			padding-left: 0px;
+			padding: 8px;
+			text-align: left;
+			margin-right: 20px;
 		}
 		
 		body article {
 			background-color: rgba(200,200,200,0.6);
-			
+			text-align: left;
+			line-height: 30px;
 		}
 		
 		header {
-			
+			 margin-top: -2px;
+			 width: 100%;
+
 			
 		}
 		
 		footer {
 			background-color: rgba(255,255,200,0.3);
+			text-align: center;
+			font-weight: bold;
 		}
-	
+			
+		h1{
+			text-align: center;
+			padding-top: 3px;
+			
+			
+		}
+
+		article h1{
+			text-align: left;
+			line-height: 28px;
+		}
+
+		
