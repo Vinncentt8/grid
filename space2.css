@@ -5,15 +5,19 @@
 		
 		#frame {
 			background-color: rgba(255,200,200,0.3);
+			flex-direction: row;
+
 		}
 		
 		header nav ul {
 			list-style-type: none;
 			background-color: rgba(255,255,200,0.3);
+
+			
 		}
 		
 		#content {
-			
+
 		}
 		
 		nav li {
@@ -39,6 +43,8 @@
 		}
 		
 		header {
+			
+			
 		}
 		
 		footer {
